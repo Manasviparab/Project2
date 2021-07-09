@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>My Family</title>
+    </head>
+    
+    <h1>Family Tree</h1>
+
+        <img src="https://thumbs.dreamstime.com/b/cute-cartoon-family-father-little-girl-his-shoulder-smiling-young-mother-posing-portrait-vector-illustration-38863705.jpg"
+        style="width:30%;" id="Family">
+    
+        <h4 id="Familyid">My Family</h4>
+    
+        <button onclick="update();">Next</button>
+    
+        <var images=
+        ["https://web.whatsapp.com/b26e496f-e144-4dac-a1d0-61ec34c4f7fc",
+        "https://web.whatsapp.com/3d3d6929-4f18-49a4-875f-04ebe5e11ce1",
+        "https://web.whatsapp.com/7652fafe-9100-4ee6-b6e2-2e1725559907"];></var>
+    
+        <var names=["Family Book","Swati Parab","Manasvi Parab","Kishor Parab"];>
+    </var>
+    
+        <var i=0;
+        function update()
+        {
+            i++;
+            var number_of_array=5
+            if(i > number_of_array)
+            {
+                i=0;
+            }</var>
+            <var updatedimage=images[i];></var>
+            <var updatednames=names[i];></var>
+            document.getElementById("Family").src=updatedimage;
+            document.getElementById("Familyid").innerHTML=updatednames;
+    
+        }
+        
+</html>
